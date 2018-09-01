@@ -20,8 +20,8 @@ JSON-stat can be converted to CSV-stat and CSV-stat can be converted back to JSO
     * [The *href*, *label*, *source* and *updated* lines](#the-href-label-source-and-updated-lines)
     * [The *dimension* lines](#the-dimension-lines)
   * [The CSV Lines](#the-csv-lines)
-    * [The CSV Header Line](#the-csv-header-line)
-    * [The CSV Data Records](#the-csv-data-records)
+    * [The CSV header line](#the-csv-header-line)
+    * [The CSV data records](#the-csv-data-records)
 * [Conversion Tools](#conversion-tools)
   * [Command Line](#command-line)
   * [Client JavaScript](#client-javascript)
@@ -118,11 +118,11 @@ These fields in the unit column must be delimited with the unit separator specif
 dimension,measure,concepts,2,gsp,Gross State Product,pop,population,metric,0|million|$|start,1|million
 ```
 
-### The CSV Lines
+### The CSV lines
 
 CSV-stat's extra metadata header ends with a *data* line. After that, CSV regular lines are present.
 
-#### The CSV Header Line
+#### The CSV header line
 
 This line must have as many columns as dimensions, plus a *status* column (only when [status](https://json-stat.org/format/#status) information is available), plus a *value* column. Content of these columns in the header line are dimension ids, "status" (when status information is available) and "value".
 
