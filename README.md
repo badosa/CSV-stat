@@ -132,7 +132,7 @@ concept,area,year,status,value
 
 The order of the columns determines the dimension order. The last column is always the *value* column. When a *status* column is present, it must be immediately before the last one.
 
-#### The CSV Data Records
+#### The CSV data records
 
 Data records follow the header line. Columns contain category ids, status strings (when available) and values. Missing values can be indicated in the *value* column with any string not convertible to a number.
 
