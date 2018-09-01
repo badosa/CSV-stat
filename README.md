@@ -19,7 +19,7 @@ JSON-stat can be converted to CSV-stat and CSV-stat can be converted back to JSO
     * [The *data* line](#the-data-line)
     * [The *href*, *label*, *source* and *updated* lines](#the-href-label-source-and-updated-lines)
     * [The *dimension* lines](#the-dimension-lines)
-  * [The CSV lines](#the-csv-lines)
+  * [The CSV Lines](#the-csv-lines)
     * [The CSV Header Line](#the-csv-header-line)
     * [The CSV Data Records](#the-csv-data-records)
 * [Conversion Tools](#conversion-tools)
@@ -118,7 +118,7 @@ These fields in the unit column must be delimited with the unit separator specif
 dimension,measure,concepts,2,gsp,Gross State Product,pop,population,metric,0|million|$|start,1|million
 ```
 
-### The CSV lines
+### The CSV Lines
 
 CSV-stat's extra metadata header ends with a *data* line. After that, CSV regular lines are present.
 
@@ -168,7 +168,7 @@ jsonstat2csv oecd.json oecd.jsv --rich
 To convert to JSON-stat from CSV-stat, use [csv2jsonstat](https://github.com/badosa/JSON-stat-conv#csv2jsonstat).
 
 ```
-jsonstat2csv oecd.jsv oecd.json
+csv2jsonstat oecd.jsv oecd.json
 ```
 
 ### Client JavaScript
