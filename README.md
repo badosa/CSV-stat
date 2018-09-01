@@ -118,7 +118,7 @@ These fields in the unit column must be delimited with the unit separator specif
 dimension,measure,concepts,2,gsp,Gross State Product,pop,population,metric,0|million|$|start,1|million
 ```
 
-### The CSV lines
+### The CSV Lines
 
 CSV-stat's extra metadata header ends with a *data* line. After that, CSV regular lines are present.
 
